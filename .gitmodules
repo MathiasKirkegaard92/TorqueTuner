@@ -7,3 +7,6 @@
 [submodule "software/libmapper_arduino"]
 	path = software/libmapper_arduino
 	url = https://github.com/mathiasbredholt/libmapper_arduino.git
+[submodule "software/TF-editor"]
+	path = software/TF-editor
+	url = git@gitlab.com:MathiasKirkegaard92/TF-editor.git
