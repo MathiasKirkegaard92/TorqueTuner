@@ -1,6 +1,3 @@
-[submodule "software/TorqueTuner-ESP32"]
-	path = software/TorqueTuner-ESP32
-	url = git@gitlab.com:MathiasKirkegaard92/TorqueTuner-ESP32.git
 [submodule "software/Mechaduino-firmware"]
 	path = software/Mechaduino-firmware
 	url = git@gitlab.com:MathiasKirkegaard92/Mechaduino-firmware.git
