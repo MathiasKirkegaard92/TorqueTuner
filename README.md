@@ -15,8 +15,9 @@ The hardware is based on the ESP32 microcontroller and the [mechaduino](https://
 ## Installation
 
 Clone this repository and all of its submodules  
-
+	
     git clone --recursive 'https://github.com/MathiasKirkegaard92/torquetuner
+
 
 ## libmapper
 
