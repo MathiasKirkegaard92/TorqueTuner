@@ -2,7 +2,9 @@
 
 TorqueTuner  is  an  embedded  module  that  allows  Digital Musical Instrument (DMI) designers to map sensors to parameters  of  haptic  effects  and  dynamically  modify  rotary force  feedback  in  real-time. It comes with an embedded collection of haptic effects, and a is wireless bi-directional interfacethrough [libmapper](https://github.com/libmapper/libmapper).
 
-[Demonstration video](https://vimeo.com/404592134)  
+## Demonstration Video
+[![IMAGE ALT TEXT](https://i.vimeocdn.com/video/898499437_200x150)](https://vimeo.com/404592134)
+
 
 <div align="center">
 
