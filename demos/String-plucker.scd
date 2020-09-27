@@ -13,7 +13,7 @@ s.waitForBoot({
 	////////////// Output signals  //////////////
 	~mode = Bus.control;
 	{
-		MapperOutput.kr(In.kr(~mode), 'Modeselektor', 0, 7);
+		MapOut.kr(In.kr(~mode), 'Modeselektor', 0, 7);
 	}.play;
 
 
@@ -21,12 +21,12 @@ s.waitForBoot({
 
 	~freq = Bus.control;
 	{
-		Out.kr(~freq, MapperInput.kr('Frequency', 20, 20000));
+		Out.kr(~freq, MapIn.kr('Frequency', 20, 20000));
 	}.play;
 
 	~trigger = Bus.control;
 	{
-		Out.kr(~trigger, MapperInput.kr('Excitation', 0, 1));
+		Out.kr(~trigger, MapIn.kr('Excitation', 0, 1));
 	}.play;
 
 	////////////// Synth Defs  //////////////

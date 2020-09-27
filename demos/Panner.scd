@@ -15,7 +15,7 @@ s.waitForBoot({
 
 	~mode = Bus.control;
 	{
-		MapperOutput.kr(In.kr(~mode), 'Modeselektor', 0, 7);
+		MapOut.kr(In.kr(~mode), 'Modeselektor', 0, 7);
 	}.play;
 
 
@@ -23,12 +23,12 @@ s.waitForBoot({
 
 	~resonance = Bus.control;
 	{
-		Out.kr(~resonance,MapperInput.kr('Resonance', 0, 1));
+		Out.kr(~resonance,MapIn.kr('Resonance', 0, 1));
 	}.play;
 
 	~pan = Bus.control;
 	{
-		Out.kr(~pan, MapperInput.kr('Balance', -1, 1));
+		Out.kr(~pan, MapIn.kr('Balance', -1, 1));
 	}.play;
 
 	////////////// Synth Defs  //////////////

@@ -19,13 +19,13 @@ s.waitForBoot({
 	////////////// Output signals  //////////////
 	~mode = Bus.control;
 	{
-		MapperOutput.kr(In.kr(~mode), 'Modeselektor', 0, 7);
+		MapOut.kr(In.kr(~mode), 'Modeselektor', 0, 7);
 	}.play;
 
 
 	~ctrl = Bus.control;
 	{
-		Out.kr(~ctrl, MapperInput.kr('Control', -1, 1));
+		Out.kr(~ctrl, MapIn.kr('Control', -1, 1));
 	}.play;
 
 });

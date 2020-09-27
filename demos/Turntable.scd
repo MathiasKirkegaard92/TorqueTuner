@@ -20,12 +20,12 @@ s.waitForBoot({
 
 	~mode = Bus.control;
 	{
-		MapperOutput.kr(In.kr(~mode), 'Modeselektor', 0, 7);
+		MapOut.kr(In.kr(~mode), 'Modeselektor', 0, 7);
 	}.play;
 
 	~lfo = Bus.control;
 	{
-		MapperOutput.kr(In.kr(~lfo), 'LFO', -1, 1);
+		MapOut.kr(In.kr(~lfo), 'LFO', -1, 1);
 	}.play;
 
 
@@ -34,14 +34,14 @@ s.waitForBoot({
 
 	~delayTime = Bus.control;
 	{
-		Out.kr(~delayTime, MapperInput.kr('DelayTime', 0, 1));
+		Out.kr(~delayTime, MapIn.kr('DelayTime', 0, 1));
 	}.play;
 	~delayTime.set(0);
 
 
 	~playbackSpeed = Bus.control;
 	{
-		Out.kr(~playbackSpeed,MapperInput.kr('PlaybackSpeed',-1,1));
+		Out.kr(~playbackSpeed,MapIn.kr('PlaybackSpeed',-1,1));
 	}.play;
 	~playbackSpeed.set(0);
 
