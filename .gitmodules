@@ -7,3 +7,6 @@
 [submodule "software/Mechaduino-firmware"]
 	path = software/Mechaduino-firmware
 	url = https://github.com/MathiasKirkegaard92/Mechaduino-firmware.git
+[submodule "MapperUGen.git"]
+	path = software/MapperUGen
+	url = https://github.com/mathiasbredholt/MapperUGen.git
